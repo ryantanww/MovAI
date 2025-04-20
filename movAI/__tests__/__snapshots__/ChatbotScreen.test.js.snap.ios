@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatbotScreen /> should match the snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#1e1e1e",
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#2c2c2c",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "height": 50,
+            "width": 50,
+          }
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9b59b6",
+              "fontSize": 38,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          MovAI
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9b59b6",
+              "fontSize": 20,
+            }
+          }
+        >
+          Settings
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+  <View
+    style={
+      {
+        "backgroundColor": "#1e1e1e",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "paddingHorizontal": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ecf0f1",
+            "fontSize": 16,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Here are some questions you may ask:
+      </Text>
+    </View>
+    <RCTScrollView
+      horizontal={true}
+      showsHorizontalScrollIndicator={false}
+      style={
+        {
+          "flexDirection": "row",
+          "maxHeight": 50,
+          "padding": 5,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "backgroundColor": "#1e1e1e",
+          "flex": 1,
+          "paddingHorizontal": 10,
+          "paddingVertical": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          {
+            "flex": 1,
+          }
+        }
+        testID="GC_LOADING_CONTAINER"
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#1e1e1e",
+          "borderTopColor": "#9b59b6",
+          "borderTopWidth": 2,
+          "flexDirection": "row",
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Type a message..."
+        placeholderTextColor="#ecf0f1"
+        style={
+          {
+            "backgroundColor": "#34495e",
+            "borderRadius": 20,
+            "color": "#ecf0f1",
+            "flex": 1,
+            "fontSize": 16,
+            "paddingHorizontal": 15,
+            "paddingVertical": 10,
+          }
+        }
+        value=""
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#9b59b6",
+            "borderRadius": 20,
+            "marginLeft": 10,
+            "opacity": 1,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#ecf0f1",
+              "fontSize": 16,
+            }
+          }
+        >
+          Send
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

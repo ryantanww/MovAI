@@ -1,0 +1,736 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FAQScreen /> should match snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#1e1e1e",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#2c2c2c",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "height": 50,
+            "width": 50,
+          }
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9b59b6",
+              "fontSize": 38,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          MovAI
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9b59b6",
+              "fontSize": 20,
+            }
+          }
+        >
+          Settings
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+  <Text
+    style={
+      {
+        "color": "#9b59b6",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginBottom": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Frequently Asked Questions
+  </Text>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              How can I search for movies?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              How do I add a movie to my Watchlist?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              How can I view trending movies?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Why are random genres displayed on the Home Screen?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              How do I remove a movie from my Watchlist?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              What is the source of movie data in this app?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              How often are movie recommendations updated?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Can I see detailed information about a movie?
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#444",
+              "borderBottomWidth": 1,
+              "marginBottom": 15,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#9b59b6",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Why do some movies not show up in search results?
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#9b59b6",
+        "borderRadius": 8,
+        "justifyContent": "center",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#ecf0f1",
+          "fontSize": 18,
+          "textAlign": "center",
+        }
+      }
+    >
+      Back
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;
